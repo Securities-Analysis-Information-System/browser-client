@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd431df8-25d3-45ed-9dc2-ac45846c6a09" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="+template" />
+        <option value="CSS File" />
+        <option value="+page.svelte" />
+        <option value="nav" />
+        <option value="MenuItem" />
+        <option value="Sass File" />
+        <option value="+page.server.js" />
+        <option value="Nav.svelte" />
+        <option value="Nav__Item" />
+        <option value="nav__logo" />
+        <option value="header__menu-action" />
+        <option value="header__menu-profile" />
+        <option value="SCSS File" />
+        <option value="calendar__month" />
+        <option value="calendar__month__day" />
+        <option value="calendar__year" />
+        <option value="+page" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/@sveltejs/kit/types/index.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es2015.core.d.ts" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/routes/calendar/+page.svelte" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2QhdYg43UIMaYjfV1O4tuntfWKb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Cloud/invest_cabond/web/src/routes/calendar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Pug/Jade&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Volumes/Cloud/invest_cabond/web/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/calendar" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/components/calendar/__year" />
+      <recent name="$PROJECT_DIR$/src/global_styles" />
+      <recent name="$PROJECT_DIR$/src/lib/components/header/__logo" />
+      <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/src/components/navigation" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd431df8-25d3-45ed-9dc2-ac45846c6a09" name="Changes" comment="" />
+      <created>1685809796003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685809796003</updated>
+      <workItem from="1685809797557" duration="36000" />
+      <workItem from="1685809842918" duration="35000" />
+      <workItem from="1685809888865" duration="1701000" />
+      <workItem from="1686384513256" duration="12407000" />
+      <workItem from="1686418954103" duration="1151000" />
+      <workItem from="1686420881256" duration="3660000" />
+      <workItem from="1686462970661" duration="3892000" />
+      <workItem from="1686479028036" duration="2082000" />
+      <workItem from="1686488512281" duration="7252000" />
+      <workItem from="1687885410997" duration="3996000" />
+      <workItem from="1687893124386" duration="40000" />
+      <workItem from="1687966193509" duration="4683000" />
+      <workItem from="1688055174882" duration="8334000" />
+      <workItem from="1688221057139" duration="2779000" />
+      <workItem from="1688223964256" duration="6099000" />
+      <workItem from="1688271433054" duration="764000" />
+      <workItem from="1688311424078" duration="2752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
