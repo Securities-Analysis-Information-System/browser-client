@@ -18,7 +18,6 @@ export function initializeBeginOfYear(year) {
  * @return {Object}
  */
 export function getBondDataByDate(date, pageData) {
-    // console.log(year, month.toString().length > 1 ? month : '0' + month.toString(), day + 1);
     return pageData.bond_by_date[date.get()];
 }
 

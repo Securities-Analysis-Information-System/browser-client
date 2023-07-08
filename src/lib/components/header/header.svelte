@@ -1,36 +1,36 @@
 <nav class="header">
-    <HeaderMenuAction>
-        <HeaderLogo href={"/"} moduleName={"Облигации"}/>
-        <HeaderItem href={"/login"} name={"Портфель"}/>
-        <HeaderItem href={"/login"} name={"Каталог"}/>
-        <HeaderItem href={"/calendar"} name={"Календарь"}/>
-    </HeaderMenuAction>
+	<HeaderMenuAction>
+		<HeaderLogo href={"/"} moduleName={"Облигации"}/>
+		<HeaderItem href={"/login"} name={"Портфель"}/>
+		<HeaderItem href={"/check"} name={"Каталог"}/>
+		<HeaderItem href={"/calendar_new"} name={"Календарь"}/>
+	</HeaderMenuAction>
 
-    <HeaderMenuProfile>
-        <HeaderItem href={"/login"} name={"Вход"}/>
-        <HeaderItem href={"/login"} name={"Регистрация"}/>
-    </HeaderMenuProfile>
+	<HeaderMenuProfile>
+		<HeaderItem href={"/login"} name={"Вход"}/>
+		<HeaderItem href={"/login"} name={"Регистрация"}/>
+	</HeaderMenuProfile>
 </nav>
 
 <script lang="ts">
-    import HeaderMenuAction from "$lib/components/header/__menu-action/header__menu-action.svelte";
-    import HeaderMenuProfile from "$lib/components/header/__menu-profile/header__menu-profile.svelte";
-    import HeaderLogo from "$lib/components/header/__logo/header__logo.svelte";
-    import HeaderItem from "$lib/components/header/__item/header__item.svelte";
+	import HeaderMenuAction from "$lib/components/header/__menu-action/header__menu-action.svelte";
+	import HeaderMenuProfile from "$lib/components/header/__menu-profile/header__menu-profile.svelte";
+	import HeaderLogo from "$lib/components/header/__logo/header__logo.svelte";
+	import HeaderItem from "$lib/components/header/__item/header__item.svelte";
 </script>
 
 <style lang="scss">
-  @import "$globalStyles/color";
+	@import "$globalStyles/color";
 
-  .header {
-    background-color: $color_second_level;
+	.header {
+		background-color: $color_second_level;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 
-    padding: 1rem;
-  }
+		padding: 1rem;
+	}
 </style>
 
 
