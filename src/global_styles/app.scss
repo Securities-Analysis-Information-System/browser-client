@@ -1,9 +1,8 @@
 @import "color";
 
 body {
-	background-color: $color_first_level;
-}
+  background-color: $color_first_level;
 
-body {
-	font-family: "JetBrains Mono", monospace;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1em;
 }

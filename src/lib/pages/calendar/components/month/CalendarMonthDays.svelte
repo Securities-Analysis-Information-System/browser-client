@@ -1,5 +1,8 @@
 <div class="calendar__month__days">
 	<CalendarMonthDaysOfWeek/>
+	<div class="calendar__month__days__of__week__separator">
+		<hr/>
+	</div>
 	<CalendarMonthDaysSkip skipCount="{skip}"/>
 
 	{#each daysInMonth.values() as day}
@@ -70,7 +73,7 @@
 
 <style lang="scss">
 	.calendar__month__days {
-		height: 300px;
+		height: 100%;
 		width: 100%;
 
 		padding: 5px;
@@ -80,8 +83,13 @@
 
 		display: grid;
 		grid-template-columns: repeat(7, 1fr);
-		grid-template-rows: repeat(7, 1fr);
+		grid-template-rows: 10px repeat(7, 0.1fr);
 		grid-column-gap: 5px;
 		grid-row-gap: 5px;
+	}
+
+	.calendar__month__days__of__week__separator {
+		grid-column-start: 1;
+		grid-column-end: 8;
 	}
 </style>

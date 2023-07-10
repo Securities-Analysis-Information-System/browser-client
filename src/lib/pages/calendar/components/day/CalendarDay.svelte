@@ -1,6 +1,6 @@
 <div class="calendar__day" id="calendar__day--{year}-{getCorrectMonth(month)}-{getCorrectDay(day)}">
 	<!--{year}-{getCorrectMonth(month)}-{getCorrectDay(day)}-->
-	{getCorrectDay(day)}
+	<span>{getCorrectDay(day)}</span>
 </div>
 
 <script lang="js">
@@ -20,3 +20,18 @@
 		return monthNumber < 10 ? `0${monthNumber}` : monthNumber;
 	}
 </script>
+
+<style lang="scss">
+	.calendar__day {
+		border-radius: 20px;
+		border-left: 2px solid #666;
+		border-right: 2px solid #666;
+
+		background-color: rgba(255, 255, 255, 1);
+		//background-color: rgba(0, 150, 0, 0.3); -- green
+	}
+
+	.calendar__day span {
+		background-color: rgba(0, 0, 0, 0);
+	}
+</style>

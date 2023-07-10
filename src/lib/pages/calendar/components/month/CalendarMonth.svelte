@@ -1,5 +1,5 @@
 <div class="calendar__month">
-	{monthName}
+	<span class="calendar__month__name">{monthName}</span>
 	<CalendarMonthDays year="{year}" month="{monthNumber}"/>
 </div>
 
@@ -33,8 +33,12 @@
 
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: start;
 
 		border: 1px solid #999999;
+	}
+
+	.calendar__month__name {
+		font-weight: 600;
 	}
 </style>

@@ -31,8 +31,8 @@
 		text-align: center;
 
 		display: grid;
-		grid-template-rows: repeat(3, 250px);
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(3, auto);
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
 		row-gap: 10px;
 		column-gap: 10px;

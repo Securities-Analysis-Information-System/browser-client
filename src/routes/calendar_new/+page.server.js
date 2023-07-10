@@ -1,13 +1,5 @@
 /** @type {import('./$types').PageLoad} */
 export async function load() {
-    return fetch('http://localhost:6000/')
-        .then((data) => {
-            return data;
-        })
-        .catch((error) => {
-            return error;
-        });
-
     return {
         'bonds': {
             'RU000A103133': {
@@ -76,5 +68,14 @@ export async function load() {
                 'bond_expire': [],
             }
         }
-    };
+    }
+
+    // return fetch('http://localhost:6000/')
+    //     .then((data) => {
+    //         return {'key1': true, 'data': data};
+    //     })
+    //     .catch((error) => {
+    //         console.log(error);
+    //         return {};
+    //     });
 }

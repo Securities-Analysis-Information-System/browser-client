@@ -15,6 +15,8 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+
+		font-size: 1.5em;
 	}
 
 	time {
